@@ -32,3 +32,8 @@ npx playwright show-report
 - Test results (PASS / FAIL)
 - Screenshot on failure
 - Video recording on failure
+
+#CI/CD
+
+- Tests automatically run on push / pull request
+- HTML report + screenshot + video uploaded as artifact
