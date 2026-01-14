@@ -1,39 +1,22 @@
-# Playwright Automation Test Project
-
-## Description
-This project demonstrates automation testing using **Playwright with JavaScript**.
-It follows **Page Object Model (POM)** and **Data-driven testing** approach.
+# Playwright Automation Testing
 
 ## Tech Stack
 - Playwright
-- JavaScript (Node.js)
-- HTML Reporter
+- JavaScript
+- Page Object Model
+- API Testing
+- GitHub Actions (CI)
 
-## Project Structure
-    pages/ # Page Objects
-    tests/ # Test cases
-    tests/data/ # Test data
+## Test Coverage
+- UI tests (Login, basic flows)
+- API tests (GET users)
+- Data-driven tests
+- Reporting (HTML report)
 
-
-## Test Scenarios
-- Login successfully
-- Login with wrong password
-- Login with wrong username
-
-## How to Run Tests
+## How to run tests
 ```bash
 npm install
 npx playwright test
 
-## Tests Report
-npx playwright show-report
-
-- HTML report includes:
-- Test results (PASS / FAIL)
-- Screenshot on failure
-- Video recording on failure
-
-#CI/CD
-
-- Tests automatically run on push / pull request
-- HTML report + screenshot + video uploaded as artifact
+CI
+Tests run automatically on push via GitHub Actions
